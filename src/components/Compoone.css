@@ -1,0 +1,57 @@
+
+  
+  .wrapper{
+   border-radius: 5px;
+   width: 100vw;
+   height: 100vh;
+   background-color: teal;
+   position: relative
+  }
+  
+  .resizeable-box{
+     position: absolute;
+     border: 2px solid red;
+     width: 200px;
+     height: 200px;
+     border-radius: 3px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-height: 15px;
+     min-width: 15px;
+  }
+  .resizer{
+    position: absolute;
+    background: white;
+  }
+  .rr{
+    cursor: col-resize;
+    height: 100%;
+    right: 0;
+    top: 0;
+    width: 5px;
+  }
+  
+  .rt{
+    cursor: col-resize;
+    height: 5px;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+  
+  .rb{
+    cursor: col-resize;
+    height: 5px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .rl{
+    cursor: col-resize;
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 5px;
+  }

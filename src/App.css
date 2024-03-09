@@ -1,0 +1,12 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.heading{
+  text-align: center;
+  color: aqua;
+  padding: 20px;
+}
+
